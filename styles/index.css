@@ -66,11 +66,52 @@ body{
     margin-bottom: 20px;
     
 }
+.homecontent h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
 .homecontent p{
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 700;
     color: #00adf0;
     line-height: 1.5;
+}
+.homecontent a{
+    margin-bottom: 90px;
+    position: relative;
+    display: inline-flex;
+    width: 90px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #00adf0;
+    border-radius: 20%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #00adf0;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.homecontent a:hover{
+    color: #081b29;
+}
+.homecontent a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:100%;
+    background-color: #00adf0;
+    z-index: -1;
+    transition: .3s;
+}
+.homecontent a:hover::before{
+    width: 100%;
 }
 .social {
     position: absolute;
