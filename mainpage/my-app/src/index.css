@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #3a6280;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar a{
+  position: relative;
+  background-color: transparent;
+  justify-content: space-between;
+  color: whitesmoke;
+  margin: 25px;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar a:hover{
+  color: #00adf0;
+}
+.link{
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+.link:hover{
+  color: #00adf0;
+}
+
+.text h1{
+  text-align: center;
+  color: rgb(212, 202, 202);
+  justify-content: center;
+  margin: 50px 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.text h2{
+  justify-content: center;
+  text-align: center;
+  color: #00adf0;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 400;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+.button{
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.download{
+  margin-bottom: 50px;
+  width: 100px;
+  height: 50px;
+  border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-reflect: below
+  1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #74ccd1, 0 0 15px #74ccd1,
+              0 0 25px #74ccd1, 0 0 100px #74ccd1;
+}
+.download:hover{
+  transform: scale(1.1);
+  transition: .5s ease;
+}
